@@ -22,7 +22,11 @@
     line-height: 1.2;
 }
 
-.discription button {
+.body-button {
+    margin-top: auto;
+}
+
+.button {
     width: 269px;
     height: 66px;
     background-color: 718EDE;
@@ -31,7 +35,27 @@
     font-weight: 600;
     border-radius: 52px;
     border: none;
-    margin-top: auto;
+    transition: background-color 0.25s ease;
+}
+
+.body-button a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: #718EDE;
+    border: 2px solid #718EDE;
+    margin-left: 15px;
+}
+
+.button:hover {
+    background-color: 292A2A;
+    border: 2px solid #718EDE;
+    cursor: pointer;
+}
+
+.body-button a:hover {
+    background-color: #292A2A;
+    border: 2px solid #718EDE;
+    cursor: pointer;
 }
 
 
